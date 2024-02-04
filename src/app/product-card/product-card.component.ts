@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {CustomInputComponent} from "../custom-input/custom-input.component";
+import {CustomInputComponent} from "../core/components/custom-input/custom-input.component";
 
 @Component({
   selector: 'product-card',
