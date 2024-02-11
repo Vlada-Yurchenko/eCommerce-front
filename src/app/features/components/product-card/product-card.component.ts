@@ -1,11 +1,13 @@
 import {Component, Input} from '@angular/core';
-import {CustomInputComponent} from "../core/components/custom-input/custom-input.component";
+import {CustomInputComponent} from "../../../core/components/custom-input/custom-input.component";
+import {TitleCasePipe} from "@angular/common";
 
 @Component({
   selector: 'product-card',
   standalone: true,
   imports: [
-    CustomInputComponent
+    CustomInputComponent,
+    TitleCasePipe
   ],
   templateUrl: './product-card.component.html',
   styleUrl: './product-card.component.css'
